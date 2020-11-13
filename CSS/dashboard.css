@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@800&display=swap');
+.card {
+  max-height: 700px;
+  box-shadow: 0px 13px 10px 0px rgba(50, 50, 50, 0.48);
+}
+
+.card-body {
+  padding: 1rem 0.5rem;
+}
+
+.card-header {
+  font-size: 25px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.showcase-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto auto 2rem auto;
+}
+
+.showcase-1 .card {
+  width: 70%;
+}
+
+.showcase-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto auto auto;
+}
+
+.showcase-2 .card {
+  width: 48%
+}
+
+.showcase-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto 1.6rem auto;
+}
+
+.showcase-3 .card {
+  width: 30%;
+}
+
+.in-numbers {
+  width: 25%;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.in-numbers .card{
+  background-color: #1C244A;
+  margin: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.in-numbers .card-body {
+  font-size: 34px;
+}
+
+.dropdown-menu {
+  overflow-y: scroll;
+  max-height: 100px;
+}
+
+@media screen and (max-width: 1279px) {
+  .showcase-1 {
+    display: block;
+  }
+
+  .showcase-2 {
+    display: block;
+  }
+
+  .showcase-3 {
+    display: block;
+  }
+
+  .showcase-1 .card {
+    width: 100%;
+  }
+
+  .showcase-2 .card {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .showcase-3 .card {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .in-numbers {
+    width: 79%;
+    display: block;
+  }
+}
